@@ -175,7 +175,7 @@ useEffect(() => {
   const filteredStore = filter === "all" ? STORE_ITEMS : STORE_ITEMS.filter(i => i.category === filter);
 
   return (
-    <div style={{ minHeight: "100vh", background: "linear-gradient(160deg, #fff1f6 0%, #fdf4ff 50%, #fff8f0 100%)", fontFamily: "'Georgia', serif", position: "relative", overflowX: "hidden" }}>
+    <div style={{ minHeight: "100vh", width: "100%", margin: 0, padding: 0, background: "linear-gradient(160deg, #fff1f6 0%, #fdf4ff 50%, #fff8f0 100%)", fontFamily: "'Georgia', serif", position: "relative", overflowX: "hidden" }}>
 
       {/* Soft blobs */}
       <div style={{ position: "fixed", top: -100, right: -80, width: 400, height: 400, borderRadius: "50%", background: "radial-gradient(circle, #fbcfe855 0%, transparent 65%)", pointerEvents: "none", zIndex: 0 }} />
